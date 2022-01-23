@@ -11,7 +11,7 @@ const send = async (tipEth) => {
             method: "eth_sendTransaction",
             params: [{
                 from: accounts[0],
-                to: "0xd20860B0ac400Fc8929c1CB91A0D87A35D49006a",
+                to: "0x6EA26E1a72FB21334eC532B476b4a04F713Fc118",
                 value: web3.utils.toHex(wei)
             }]
         })
